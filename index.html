@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Counting Game</title>
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./assets/css/crystal.css">
+
+    <!--Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+    <!-- link to jquery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <header class='headercontainer'>
+        <h1 class='head' id='header'>Crystal Counting Game</h1>
+    </header>
+
+    <section class='instruct'>
+        <h3 class='instructions'> Click Crystals below to match the Goal Number</h3>
+    </section>
+    <section class='game'>
+        <section class='useranswer container-fluid gamebox'>
+            <div class='row'>
+                <div class='col-2'></div>
+                <h3 class='numbertitle col-3'>Goal Number</h3>
+                
+                <h3 class='numbertitle col-3'>Your number</h3>
+                <div class='col-4'></div>
+            </div>
+
+            <div class='row' id='gamecontainer'>
+                <div class='col-2'></div>
+                <h2 class='randomnumber numberbox col-3' id='answernumber'><span id='randomanswer'>52</span></h2>
+                <h2 class='usernumber numberbox col-3' id='usernumberbox'><span id='usernumber'>0</span></h2>
+
+                <div class='col-2'>
+                    <div class='winlose'>
+                        <p class="totalwin scoretitle">Won: <span id='wins'>0</span></p>
+                        <p class="totalwin scoretitle">Lost: <span id='loses'>0</span></p>
+                    </div>
+                </div>
+                <div class='col-2'></div>
+            </div>
+
+        </section>
+
+
+        <section class='container-fluid' id='objects'>
+            <div class='row'>
+                <div class='col-2'></div>
+                <div class='col-10 crystalstopress'>
+                    <img src="./assets/images/madeline.jpg" alt="crystal" class="crystal col-2" id="madeline">
+                    <img src="./assets/images/emily.jpg" alt="crystal" class="crystal col-2 emily">
+                    <img src="./assets/images/minassian.jpg" alt="crystal" class="crystal col-2 minassian">
+                    <img src="./assets/images/arlet.jpg" alt="crystal" class="crystal col-2 arlet">
+                </div>
+                <div class='col-2'></div>
+            </div>
+        </section>
+    </section>
+    <script type="text/javascript" src="assets/js/crystal.js"></script>
+</body>
+
+</html>

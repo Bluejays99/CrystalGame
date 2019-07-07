@@ -1,0 +1,116 @@
+/*  FONTS
+font-family: 'Press Start 2P', cursive;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Bangers', cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+body {
+    background: url(../images/back.jpg);
+    background-size: cover;
+}
+
+/* Header */
+
+.head {
+    text-align: center;
+    margin: 20px auto;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width:80%;
+
+    color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 40pt;
+
+    background-color: white;
+    border: 5px solid black;
+}
+
+.instruct {
+    text-align: center;
+    margin: 6px auto;
+    padding: 10px 5px 10px 5px;
+    width: 50%;
+
+    color: black;
+    font-family: 'Playfair Display', serif; ;
+    font-size: 12pt;
+
+    background-color: white;
+    border: 5px solid black;
+
+}
+
+/* Game Board */
+
+
+.gamebox {
+    height: 400px;
+}
+
+.numbertitle {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px 0px 20px 0px;
+    width: 32%;
+
+    color: black;
+    font-size: 18pt;
+}
+
+#covernumber {
+    height: 130px;
+    margin: 0px auto;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+}
+
+.numberbox{
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 80pt;
+    margin: 0px auto;
+    padding: 55px 0px 40px 0px;
+
+    width: 180pt;
+    height: 180pt;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid black
+}
+
+/* Total Wins and Loses */
+
+.scoretitle {
+    font-family: 'Playfair Display', serif;
+    font-size: 20pt;
+    color: white;
+    margin: 10px auto;
+    margin-top: 13px;
+    text-align: center;
+}
+
+.score {
+    background-color: rgba(0, 0, 0, 0.3);
+    border: 5px solid black;
+    width: 60pt;
+    height: 60pt;
+    margin: 10px auto;
+    padding: 22px 10px 10px 10px;
+
+    font-family: 'Playfair Display', serif;
+    font-size: 18pt;
+    color: white;
+    text-align: center;
+};
+
+
